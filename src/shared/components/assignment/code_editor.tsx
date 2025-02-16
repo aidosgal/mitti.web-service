@@ -42,13 +42,13 @@ export default function CodeEditor() {
       </div>
       <CodeMirror
         value={code}
-        height="60vh"
+        height="50vh"
         theme={githubDark}
         extensions={[languageExtensions[language]]}
         onChange={(value) => setCode(value)}
         className="text-sm border border-gray-700 rounded-md"
       />
-      <div className="mt-4 h-[30vh]">
+      <div className="mt-4 h-[25vh]">
         <div className="p-3 text-sm border-t border-gray-700">Результат выполнения</div>
         <div className="border-t border-gray-700 p-3 flex items-center gap-5">
           <span className="text-green-500 text-lg">Принято</span>

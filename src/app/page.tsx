@@ -1,7 +1,11 @@
+import NavBar from "@/shared/components/layout/navbar";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <NavBar>
+      <div>
+        <h1>Home</h1>
+      </div>
+    </NavBar>
   );
 }
